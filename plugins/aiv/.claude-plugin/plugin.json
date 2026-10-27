@@ -1,7 +1,7 @@
 {
   "name": "aiv",
   "displayName": "AIV - AI Visibility",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Audit how AI-ready your website is, write and publish Markdown pages for LLMs and keep llms.txt up to date, from the chat.",
   "author": {
     "name": "Piotr Litwa",
@@ -10,5 +10,12 @@
   "homepage": "https://aiv.piotrlitwa.com/mcp/connect.php",
   "repository": "https://github.com/piotrlitwa/aiv-connector",
   "license": "MIT",
-  "keywords": ["seo", "geo", "llms-txt", "ai-visibility", "markdown", "content"]
+  "keywords": [
+    "seo",
+    "geo",
+    "llms-txt",
+    "ai-visibility",
+    "markdown",
+    "content"
+  ]
 }

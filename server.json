@@ -3,7 +3,7 @@
   "name": "io.github.piotrlitwa/aiv",
   "title": "AIV - AI Visibility",
   "description": "Audit website AI readiness, publish Markdown pages for LLMs and manage llms.txt.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "websiteUrl": "https://aiv.piotrlitwa.com/mcp/connect.php",
   "repository": {
     "url": "https://github.com/piotrlitwa/aiv-connector",

@@ -1,6 +1,6 @@
 {
   "name": "aiv",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "AIV (AI Visibility): audit how AI-ready your website is, write and publish Markdown pages for LLMs and keep llms.txt up to date.",
   "contextFileName": "GEMINI.md",
   "mcpServers": {

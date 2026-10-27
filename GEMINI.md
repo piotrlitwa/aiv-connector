@@ -11,5 +11,8 @@ serves llms.txt and hosts Markdown pages for LLMs.
   `generate_document` (uses AI credits), check with `analyze_content`, save with
   `update_document`, and publish with `publish_document` only after the user confirms, since
   publishing makes the page public and adds it to llms.txt.
+- Competitors: `compare_with_top_results` (`url`, `keyphrase`, optional `competitor_urls` from a web
+  search) compares a page with the top 10 for a phrase; turn `gaps` and `heading_topics_missing`
+  into a rewrite plan. Analysed pages count towards the plan quota.
 - Changes require the Own Key plan; on a read-only plan, share the billing link from the error.
 - Authentication is OAuth: if tools fail with an authentication error, run `/mcp auth aiv`.
