@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.piotrlitwa/aiv",
+  "title": "AIV - AI Visibility",
+  "description": "Audit website AI readiness, publish Markdown pages for LLMs and manage llms.txt.",
+  "version": "1.0.0",
+  "websiteUrl": "https://aiv.piotrlitwa.com/mcp/connect.php",
+  "repository": {
+    "url": "https://github.com/piotrlitwa/aiv-connector",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aiv.piotrlitwa.com/mcp/"
+    }
+  ]
+}

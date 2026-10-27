@@ -1,0 +1,17 @@
+{
+  "name": "aiv",
+  "owner": {
+    "name": "Piotr Litwa",
+    "url": "https://aiv.piotrlitwa.com"
+  },
+  "metadata": {
+    "description": "AIV (AI Visibility): make websites discoverable and citable by AI assistants."
+  },
+  "plugins": [
+    {
+      "name": "aiv",
+      "source": "./plugins/aiv",
+      "description": "Audit how AI-ready your website is, write and publish Markdown pages for LLMs and keep llms.txt up to date, from the chat."
+    }
+  ]
+}

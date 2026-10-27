@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "aiv": {
+      "type": "http",
+      "url": "https://aiv.piotrlitwa.com/mcp/"
+    }
+  }
+}

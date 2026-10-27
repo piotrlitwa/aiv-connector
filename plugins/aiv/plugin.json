@@ -1,0 +1,38 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "aiv",
+  "version": "1.0.0",
+  "description": "Audit how AI-ready your website is, write and publish Markdown pages for LLMs and keep llms.txt up to date, from the chat.",
+  "author": {
+    "name": "Piotr Litwa",
+    "email": "piotr@piotrlitwa.com",
+    "url": "https://aiv.piotrlitwa.com"
+  },
+  "homepage": "https://aiv.piotrlitwa.com/mcp/connect.php",
+  "repository": "https://github.com/piotrlitwa/aiv-connector",
+  "license": "MIT",
+  "keywords": ["seo", "geo", "llms-txt", "ai-visibility", "markdown", "content"],
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/setup/SKILL.md",
+      "interface": {
+        "displayName": "AIV - AI Visibility",
+        "shortDescription": "Make your website visible to AI assistants",
+        "longDescription": "AIV audits every page of your sitemap for AI readiness (Markdown version, canonical, structured data, headings, a 0-100 score), serves llms.txt for your site and hosts Markdown pages written for LLMs. Connect your AIV account to review the audit, find the weakest pages, analyse content for SEO and GEO, and create, AI-generate and publish Markdown pages without leaving the chat.",
+        "developerName": "Piotr Litwa",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://aiv.piotrlitwa.com",
+        "privacyPolicyURL": "https://piotrlitwa.com/privacy.html",
+        "termsOfServiceURL": "https://piotrlitwa.com/terms.html",
+        "defaultPrompt": [
+          "Use AIV to show which pages of my site are least ready for AI assistants.",
+          "Use AIV to write a Markdown page about our pricing and publish it to llms.txt."
+        ],
+        "brandColor": "#0A0A0A",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}
